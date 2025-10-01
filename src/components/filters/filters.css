@@ -1,0 +1,20 @@
+.todo-filters {
+  margin-top: 30px;
+}
+
+.todo-filters__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.todo-filters__button {
+  background-color: transparent;
+  border: 1px solid #111;
+  color: #111;
+}
+
+.todo-filters__button.active {
+  background-color: #431ab4;
+  color: #fff;
+}

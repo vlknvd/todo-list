@@ -5,16 +5,16 @@ import Filters from './components/filters/Filters';
 
 function App() {
   return (
-    <div className='todo'>
+    <main className='todo'>
       <div className='container'>
-        <div className='todo__content'>
+        <section className='todo__content'>
           <h1 className='todo__title'>Список задач:</h1>
           <TodoForm />
           <Filters />
           <TodoList />
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
   );
 }
 
